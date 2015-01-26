@@ -213,7 +213,7 @@ projects[boxes][subdir] = contrib
 
 ; Libraries
 libraries[phamlp][download][type] = "git"
-libraries[htmlpurifier][download][url] = "git@github.com:codeincarnate/phamlp.git"
+libraries[htmlpurifier][download][url] = "https://github.com/codeincarnate/phamlp.git"
 libraries[htmlpurifier][destination] = "modules/sass"
 
 libraries[htmlpurifier][download][type] = "file"
@@ -227,7 +227,6 @@ libraries[colorbox][destination] = "libraries"
 libraries[simplecolor][download][type] = "git"
 libraries[simplecolor][download][url] = "https://github.com/recurser/jquery-simple-color.git"
 libraries[simplecolor][destination] = "libraries"
-
 
 libraries[ckeditor][download][type] = "get"
 #libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.zip"
