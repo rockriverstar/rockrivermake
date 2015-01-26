@@ -210,6 +210,9 @@ projects[quickedit][subdir] = contrib
 projects[boxes][version] = ""
 projects[boxes][subdir] = contrib
 
+projects[sass][version] = ""
+projects[sass][subdir] = contrib
+
 
 ; Libraries
 libraries[phamlp][download][type] = "git"
