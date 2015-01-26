@@ -16,6 +16,10 @@ projects[rockriverstart][download][branch] = master
 ; defaults[projects][subdir] = contrib
 ; defaults[libraries][subdir] = libraries
 
+; Theme
+projects[zen][version] = ""
+
+
 ; Contrib
 projects[admin_menu][version] = ""
 projects[admin_menu][subdir] = contrib
@@ -208,6 +212,10 @@ projects[boxes][subdir] = contrib
 
 
 ; Libraries
+libraries[phamlp][download][type] = "git"
+libraries[htmlpurifier][download][url] = "git@github.com:codeincarnate/phamlp.git"
+libraries[htmlpurifier][destination] = "modules/sass"
+
 libraries[htmlpurifier][download][type] = "file"
 libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.6.0-lite.tar.gz"
 libraries[htmlpurifier][destination] = "libraries"
@@ -216,9 +224,24 @@ libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][destination] = "libraries"
 
+libraries[simplecolor][download][type] = "git"
+libraries[simplecolor][download][url] = "git@github.com:recurser/jquery-simple-color.git"
+libraries[simplecolor][destination] = "libraries"
+
+
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.zip"
+#libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip"
 libraries[ckeditor][destination] = "libraries"
+
+libraries[underscore][download][type] = "get"
+libraries[underscore][download][url] = "http://underscorejs.org/underscore-min.js"
+libraries[underscore][download][destination] = "libraries"
+
+libraries[backbone][download][type] = "get"
+libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
+libraries[backbone][download][destination] = "libraries"
+
 
 libraries[Jcrop][download][type] = "git"
 libraries[Jcrop][download][url] = "https://github.com/tapmodo/Jcrop.git"
