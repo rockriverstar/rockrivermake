@@ -225,7 +225,7 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][destination] = "libraries"
 
 libraries[simplecolor][download][type] = "git"
-libraries[simplecolor][download][url] = "git@github.com:recurser/jquery-simple-color.git"
+libraries[simplecolor][download][url] = "https://github.com/recurser/jquery-simple-color.git"
 libraries[simplecolor][destination] = "libraries"
 
 
