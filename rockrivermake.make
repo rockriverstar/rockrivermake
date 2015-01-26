@@ -213,8 +213,8 @@ projects[boxes][subdir] = contrib
 
 ; Libraries
 libraries[phamlp][download][type] = "git"
-libraries[htmlpurifier][download][url] = "https://github.com/codeincarnate/phamlp.git"
-libraries[htmlpurifier][destination] = "modules/sass"
+libraries[phamlp][download][url] = "https://github.com/codeincarnate/phamlp.git"
+libraries[phamlp][destination] = "modules/sass"
 
 libraries[htmlpurifier][download][type] = "file"
 libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.6.0-lite.tar.gz"
