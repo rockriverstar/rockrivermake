@@ -5,6 +5,9 @@ core = 7.x
 projects[] = drupal
 api = 2
 
+; Default Directories
+defaults[projects][subdir] = contrib
+
 ; Installation Profile
 projects[rockriverstart][type] = profile
 projects[rockriverstart][download][type] = git
@@ -16,9 +19,7 @@ projects[rockriverstart_theme][type] = theme
 projects[rockriverstart_theme][download][type] = git
 projects[rockriverstart_theme][download][url] = "git@bitbucket.org:rrs-internal/rock-river-start-theme.git"
 projects[rockriverstart_theme][download][branch] = master
-
-; Default Directories
-defaults[projects][subdir] = contrib
+projects[rockriverstart_theme][subdir] = ""
 
 ; Themes
 projects[zen][version] = ""
