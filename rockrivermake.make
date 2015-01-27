@@ -89,11 +89,6 @@ projects[quickedit][version] = ""
 projects[boxes][version] = ""
 
 
-; Libraries
-libraries[phamlp][download][type] = "git"
-libraries[phamlp][download][url] = "https://github.com/codeincarnate/phamlp.git"
-libraries[phamlp][destination] = "modules/sass"
-
 libraries[htmlpurifier][download][type] = "file"
 libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.6.0-lite.tar.gz"
 libraries[htmlpurifier][destination] = "libraries"
@@ -113,8 +108,13 @@ libraries[ckeditor][destination] = "libraries"
 
 libraries[underscore][download][type] = "get"
 libraries[underscore][download][url] = "http://underscorejs.org/underscore.js"
-libraries[underscore][download][url] = "http://underscorejs.org/underscore-min.js"
 libraries[underscore][download][destination] = "libraries"
+libraries[underscore][directory_name] = "underscore"
+
+libraries[underscore_min][download][type] = "get"
+libraries[underscore_min][download][url] = "http://underscorejs.org/underscore-min.js"
+libraries[underscore_min][download][destination] = "libraries"
+libraries[underscore_min][directory_name] = "underscore"
 
 libraries[backbone][download][type] = "get"
 libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
