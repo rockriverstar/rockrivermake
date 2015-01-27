@@ -21,9 +21,6 @@ projects[zen][version] = ""
 
 
 ; Contrib
-projects[sass][version] = ""
-projects[sass][subdir] = contrib
-
 projects[admin_menu][version] = ""
 projects[admin_menu][subdir] = contrib
 
@@ -228,9 +225,9 @@ libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][destination] = "libraries"
 
-libraries[simplecolor][download][type] = "git"
-libraries[simplecolor][download][url] = "https://github.com/recurser/jquery-simple-color.git"
-libraries[simplecolor][destination] = "libraries"
+libraries[jquery-simple-color][download][type] = "git"
+libraries[jquery-simple-color][download][url] = "https://github.com/recurser/jquery-simple-color.git"
+libraries[jquery-simple-color][destination] = "libraries"
 
 libraries[ckeditor][download][type] = "get"
 #libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.zip"
@@ -238,6 +235,7 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20fo
 libraries[ckeditor][destination] = "libraries"
 
 libraries[underscore][download][type] = "get"
+libraries[underscore][download][url] = "http://underscorejs.org/underscore.js"
 libraries[underscore][download][url] = "http://underscorejs.org/underscore-min.js"
 libraries[underscore][download][destination] = "libraries"
 
