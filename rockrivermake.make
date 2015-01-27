@@ -19,7 +19,6 @@ projects[rockriverstart_theme][download][branch] = master
 
 ; Default Directories
 defaults[projects][subdir] = contrib
-defaults[libraries][subdir] = libraries
 
 ; Themes
 projects[zen][version] = ""
