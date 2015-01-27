@@ -10,6 +10,7 @@ projects[rockriverstart][type] = profile
 projects[rockriverstart][download][type] = git
 projects[rockriverstart][download][url] = "git@bitbucket.org:rrs-internal/rock-river-start.git"
 projects[rockriverstart][download][branch] = master
+projects[rockriverstart][subdir] = ""
 
 projects[rockriverstart_theme][type] = theme
 projects[rockriverstart_theme][download][type] = git
@@ -91,43 +92,33 @@ projects[boxes][version] = ""
 
 libraries[htmlpurifier][download][type] = "file"
 libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.6.0-lite.tar.gz"
-libraries[htmlpurifier][destination] = "libraries"
 
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
-libraries[colorbox][destination] = "libraries"
 
 libraries[jquery-simple-color][download][type] = "git"
 libraries[jquery-simple-color][download][url] = "https://github.com/recurser/jquery-simple-color.git"
-libraries[jquery-simple-color][destination] = "libraries"
 
 libraries[ckeditor][download][type] = "get"
 #libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.zip"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip"
-libraries[ckeditor][destination] = "libraries"
 
 libraries[underscore][download][type] = "get"
 libraries[underscore][download][url] = "http://underscorejs.org/underscore.js"
-libraries[underscore][download][destination] = "libraries"
 libraries[underscore][directory_name] = "underscore"
 
 libraries[underscore_min][download][type] = "get"
 libraries[underscore_min][download][url] = "http://underscorejs.org/underscore-min.js"
-libraries[underscore_min][download][destination] = "libraries"
 libraries[underscore_min][directory_name] = "underscore"
 
 libraries[backbone][download][type] = "get"
 libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
-libraries[backbone][download][destination] = "libraries"
-
 
 libraries[Jcrop][download][type] = "git"
 libraries[Jcrop][download][url] = "https://github.com/tapmodo/Jcrop.git"
-libraries[Jcrop][destination] = "libraries"
 
 libraries[json2][download][type] = "git"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js.git"
-libraries[json2][destination] = "libraries"
 
 ; features
 
@@ -135,7 +126,7 @@ projects[rrs_rte][type] = module
 projects[rrs_rte][download][type] = "git"
 projects[rrs_rte][download][url] = "git@bitbucket.org:rrs-internal/rrs-rte.git"
 projects[rrs_rte][download][branch] = "master"
-projects[rrs_rte][destination] = "features"
+projects[rrs_rte][subdir] = "features"
 
 
 
