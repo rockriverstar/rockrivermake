@@ -15,11 +15,11 @@ projects[rockriverstart][download][url] = "git@bitbucket.org:rrs-internal/rock-r
 projects[rockriverstart][download][branch] = master
 projects[rockriverstart][subdir] = ""
 
-projects[rockriverstart_theme][type] = theme
-projects[rockriverstart_theme][download][type] = git
-projects[rockriverstart_theme][download][url] = "git@bitbucket.org:rrs-internal/rock-river-start-theme.git"
-projects[rockriverstart_theme][download][branch] = master
-projects[rockriverstart_theme][subdir] = ""
+projects[rockrivertheme][type] = theme
+projects[rockrivertheme][download][type] = git
+projects[rockrivertheme][download][url] = "git@bitbucket.org:rrs-internal/rock-river-theme.git"
+projects[rockrivertheme][download][branch] = master
+projects[rockrivertheme][subdir] = ""
 
 ; Themes
 projects[zen][version] = ""
