@@ -87,7 +87,7 @@ projects[imce][version] = ""
 projects[ckeditor][version] = ""
 projects[linkit][version] = ""
 projects[views_bulk_operations][version] = ""
-projects[quickedit][version] = ""
+#projects[quickedit][version] = ""
 projects[boxes][version] = ""
 
 
@@ -104,16 +104,16 @@ libraries[ckeditor][download][type] = "get"
 #libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.zip"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.4.3_edit.zip"
 
-libraries[underscore][download][type] = "get"
-libraries[underscore][download][url] = "http://underscorejs.org/underscore.js"
-libraries[underscore][directory_name] = "underscore"
+#libraries[underscore][download][type] = "get"
+#libraries[underscore][download][url] = "http://underscorejs.org/underscore.js"
+#libraries[underscore][directory_name] = "underscore"
 
-libraries[underscore_min][download][type] = "get"
-libraries[underscore_min][download][url] = "http://underscorejs.org/underscore-min.js"
-libraries[underscore_min][directory_name] = "underscore"
+#libraries[underscore_min][download][type] = "get"
+#libraries[underscore_min][download][url] = "http://underscorejs.org/underscore-min.js"
+#libraries[underscore_min][directory_name] = "underscore"
 
-libraries[backbone][download][type] = "get"
-libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
+#libraries[backbone][download][type] = "get"
+#libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
 
 libraries[Jcrop][download][type] = "git"
 libraries[Jcrop][download][url] = "https://github.com/tapmodo/Jcrop.git"
